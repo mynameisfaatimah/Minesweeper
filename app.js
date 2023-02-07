@@ -9,21 +9,29 @@ function createBoard() {
     //get shuffled game array with random bombs
     const bombsArray = Array(bombAmount).fill('bomb')
     const emptyArray = Array(width*width - bombAmount).fill('valid')
-console.log(bombsArray)
-console.log(emptyArray)
+//console.log(bombsArray)
+//console.log(emptyArray)
 const gameArray = emptyArray.concat(bombsArray)
-console.log(gameArray)
-const shuffledArray = gameArray.sort(() => Mathrandom())
-
+//console.log(gameArray)
+const shuffledArray = gameArray.sort(() => Math.random()-0.5)
+//console.log(shuffledArray)
 
                                                         //forloop to loop over a block of code  100 times                                       
 for (let i = 0; i < width*width; i++) {                 //loop is repeating itself from 0 to 99 going up by 1 each time
 const square = document.createElement('div')
 square.setAttribute('id', i)                                        //my string and my loop for i(0-99)
+square.classList.add(shuffledArray[i])
 grid.appendChild(square)
 squares.push(square)                                             //pushing square into my squares array
 
 }
+//add Numbers 
+
+
+
+
+
+
 }
 createBoard()
 
