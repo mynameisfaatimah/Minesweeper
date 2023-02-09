@@ -3,14 +3,30 @@
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: lightgrey;  
 }
 
 .grid div {
     height: 40px; 
     width: 40px;
-}
 
+}
+body {
+    background-color: #0D8584;
+}
+.checked {
+    background-color: #C0C0C0;;
+    font-size: 80%;
+    text-align: center ;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 10px;
+}
 .bomb {
     background-color:aqua;
 }
+
