@@ -3,30 +3,54 @@
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgrey;  
+    background-color: lightgrey;    
 }
-
 .grid div {
     height: 40px; 
     width: 40px;
+    text-align: center;
+    vertical-align: middle;
 
 }
-body {
-    background-color: #0D8584;
+
+body {   
+background-image: url(./Minesweeperimgs/windowsbackground.png) no-repeat;
+background-size: cover;
+position:relative;
+overflow: hidden;
+backdrop-filter: blur(3px);
 }
+
+.solid {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #ffffff #7B7B7B #7B7B7B #ffffff;
+    background-color: #C0C0C0;
+    box-sizing: border-box;
+
+  }
 .checked {
-    background-color: #C0C0C0;;
+    background-color: #C0C0C0;
     font-size: 80%;
     text-align: center ;
-    border: none;
+    border: 2px solid;
     font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
 }
 .flex-container {
     display: flex;
     justify-content: center;
-    margin: 80px 10px;
+  
+     
 }
+
 .bomb {
-    background-color:aqua;
+    background-color:C0C0C0;
+    height: 40px;
+    width: 40px;
+   border: 5px solid;
+   border-color: #ffffff #7B7B7B #7B7B7B #ffffff;
+   box-sizing: border-box;
 }
 
