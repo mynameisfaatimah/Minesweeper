@@ -9,10 +9,12 @@ Right-click on a square to flag it as a mine.
 If a square is a mine, the game is over. If all the squares without mines are uncovered, you win!
 The number in a square indicates the number of mines in the surrounding squares.
 
-### Installation
-Clone this repository to your local machine using the following command: http://en.wikipedia.org/wiki/Minesweeper_\(video_game\)
 
 ## Getting Started 
+https://github.com/mynameisfaatimah/Minesweeper
+
+
+## My plan
 - Desgin the gameboard with a grid os squares and randomly set a number of mines in the grid within JS
 
 - Create functionlity to uncover squares, flag them as mines and display the number of mines in the surrounding squares. 
@@ -22,4 +24,14 @@ Clone this repository to your local machine using the following command: http://
 - Add user interactions: left-click to uncover a cell,right-click to flag/unflag it as a mine, and display game status messages. 
 
 - console.log along the way and be sure to commit gits to track progress
+
+
+
+## Source
+https://www.nickarocho.com/projects-index/minesweeper
+
+https://developer.mozilla.org/en-US/docs/Glossary/Recursion
+
+https://www.youtube.com/watch?v=Ns6tCRHTaSM
+
 
