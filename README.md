@@ -1,7 +1,7 @@
 # **Minesweeper** 
 <sup> A classic Minesweeper game where the objective is to uncover all the squares without mines.</sup>
-<sub>https://en.wikipedia.org/wiki/Minesweeper_(video_game) </sub>
-[Click_Here_to_Play](fancy-act1.surge.sh)
+<sub></sub>
+<sub> [Click Here to Play](https://fancy-act1.surge.sh) </sub>
 
 ### How to Play
 Left-click on a square to uncover it.
